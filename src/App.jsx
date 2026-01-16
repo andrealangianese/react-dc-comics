@@ -6,11 +6,12 @@ import MainHeader from "./components/MainHeader"
 function App() {
   return (
     <>
-    <MainHeader />
-    <MainContent />
-    <FirstFooter />
-    <FinalFooter />
-    
+      <div className="container">
+        <MainHeader />
+        <div className="blue-backgroung"><MainContent /></div>
+        <div className="image-background"><FirstFooter /></div>
+        <div className="social"><FinalFooter /></div>
+      </div>
     </>
   )
 }

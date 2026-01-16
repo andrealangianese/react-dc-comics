@@ -8,23 +8,23 @@ function MainContent() {
     return (
         <div>
             <a href="#">
-                <img src={DcSmartphone} alt="" style={{ width: "200px", border: "1px solid red" }} />
+                <img src={DcSmartphone} alt="" />
                 <span> DIGITAL COMICS</span>
             </a>
             <a href="#">
-                <img src={DcTshirt} alt="" style={{ width: "200px", border: "1px solid red" }} />
+                <img src={DcTshirt} alt=""/>
                 <span> DC MERCHANDISE</span>
             </a>
             <a href="#">
-                <img src={DcCard} alt="" style={{ width: "200px", border: "1px solid red" }} />
+                <img src={DcCard} alt=""  />
                 <span> SUBSCRIPTION</span>
             </a>
             <a href="#">
-                <img src={DcLuogo} alt="" style={{ width: "200px", border: "1px solid red" }} />
+                <img src={DcLuogo} alt=""  />
                 <span> COMIC SHOP LOCATOR</span>
             </a>
             <a href="#">
-                <img src={DcPower} alt="" style={{ width: "200px", border: "1px solid red" }} />
+                <img src={DcPower} alt="" />
                 <span> DC POWER VISA</span>
             </a>
         </div>
