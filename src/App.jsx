@@ -1,6 +1,11 @@
+import MainHeader from "./components/MainHeader"
 
 function App() {
-  return <h1>holaaa</h1>
+  return (
+    <>
+    <MainHeader />
+    </>
+  )
 }
 
 export default App
