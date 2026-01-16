@@ -4,7 +4,22 @@
     box-sizing: border-box;
 }
 
-li a {
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a{
   text-decoration: none;
 }
 
+.header-flex {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.flex-a {
+  display: flex;
+}
