@@ -1,27 +1,38 @@
 import dcLogo from "../assets/img/dc-logo.png";
 import jumbo from "../assets/img/jumbotron.jpg"
 
+const navBarData =[
+    {name: "CHARACTERS" , href: "#"},
+    {name: "COMICS" , href: "#"},
+    {name: "MOVIES" , href: "#"},
+    {name: "TV" , href: "#"},
+    {name: "GAMES" , href: "#"},
+    {name: "COLLECTIBLES" , href: "#"},
+    {name: "VIDEOS" , href: "#"},
+    {name: "FANS" , href: "#"},
+    {name: "NEWS" , href: "#"},
+    {name: "SHOP" , href: "#"}
+]
 function MainHeader() {
     return (
         <>
             <div className="header-flex">
                 <img src={dcLogo} alt="DC Logo" />
                 <ul>
-                    <li><a className="flex-a" href="#">CHARACTERS</a></li>
-                    <li><a className="flex-a" href="#">COMICS</a></li>
-                    <li><a className="flex-a" href="#">MOVIES</a></li>
-                    <li><a className="flex-a" href="#">TV</a></li>
-                    <li><a className="flex-a" href="#">GAMES</a></li>
-                    <li><a className="flex-a" href="#">COLLECTIBLES</a></li>
-                    <li><a className="flex-a" href="#">VIDEOS</a></li>
-                    <li><a className="flex-a" href="#">FANS</a></li>
-                    <li><a className="flex-a" href="#">NEWS</a></li>
-                    <li><a className="flex-a" href="#">SHOP</a></li>
+                    {navBarData.map((data, index) =>(
+                        <li>
+                            <a className="flex-a" href={data.href}> {data.name}</a>
+                        </li>
+                    )
+
+                    )
+
+                    }
                 </ul>
 
             </div>
-            <div>
-                <img className="img-jumbo" src={jumbo} alt="jumbo-img" />
+            <div className="img-jumbo">
+                <img src={jumbo} alt="jumbo-img" />
             </div>
         </>
     )
