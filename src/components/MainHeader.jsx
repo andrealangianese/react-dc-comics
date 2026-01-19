@@ -20,19 +20,16 @@ function MainHeader() {
                 <img src={dcLogo} alt="DC Logo" />
                 <ul>
                     {navBarData.map((data, index) =>(
-                        <li>
+                        <li key={index}>
                             <a className="flex-a" href={data.href}> {data.name}</a>
                         </li>
-                    )
-
-                    )
-
+                    ))
                     }
                 </ul>
 
             </div>
-            <div className="img-jumbo">
-                <img src={jumbo} alt="jumbo-img" />
+            <div >
+                <img className="img-jumbo" src={jumbo} alt="jumbo-img" />
             </div>
         </>
     )
