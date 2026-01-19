@@ -1,5 +1,5 @@
 import dcLogo from "../assets/img/dc-logo.png";
-
+import jumbo from "../assets/img/jumbotron.jpg"
 
 function MainHeader() {
     return (
@@ -18,6 +18,10 @@ function MainHeader() {
                     <li><a className="flex-a" href="#">NEWS</a></li>
                     <li><a className="flex-a" href="#">SHOP</a></li>
                 </ul>
+
+            </div>
+            <div>
+                <img className="img-jumbo" src={jumbo} alt="jumbo-img" />
             </div>
         </>
     )
