@@ -49,6 +49,10 @@ a {
 }
 
 /* sezione card */
+.black-bgc{
+  width: 100%;
+  background-color: black;
+}
 
 .card-container {
   display: flex;

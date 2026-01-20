@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="full-screen">
         <MainHeader />
-        <div className="full-screen"><ComicsList /></div>
+        <div className="black-bgc"><ComicsList /></div>
         <div className="blue-backgroung"><MainContent /></div>
         <div className="image-background"><FirstFooter /></div>
         <div className="social"><FinalFooter /></div>
