@@ -2,7 +2,7 @@ import FinalFooter from "./components/FinalFooter"
 import FirstFooter from "./components/FirstFooter"
 import MainContent from "./components/MainContent"
 import MainHeader from "./components/MainHeader"
-import ComicsList from "./components/MainComic"
+import ComicsList from "./components/product/ComicList"
 
 function App() {
   return (
