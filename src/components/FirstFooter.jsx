@@ -2,7 +2,7 @@ import bigLogo from "../assets/img/dc-logo-bg.png"
 
 function FirstFooter() {
     return (
-        <>
+        <div className="container">
             <div>
                 <h5>DC COMICS</h5>
                 <ul>
@@ -44,7 +44,7 @@ function FirstFooter() {
             <div>
                 <img src={bigLogo} alt="big logo" />
             </div>
-        </>
+        </div>
     )
 }
 

@@ -6,7 +6,7 @@ import DcPower from "../assets/img/buy-dc-power-visa.svg"
 
 function MainContent() {
     return (
-        <div>
+        <div className="container">
             <a href="#">
                 <img src={DcSmartphone} alt="" />
                 <span> DIGITAL COMICS</span>

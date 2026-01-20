@@ -7,9 +7,9 @@ import ComicsList from "./components/MainComic"
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="full-screen">
         <MainHeader />
-        <ComicsList />
+        <div className="full-screen"><ComicsList /></div>
         <div className="blue-backgroung"><MainContent /></div>
         <div className="image-background"><FirstFooter /></div>
         <div className="social"><FinalFooter /></div>

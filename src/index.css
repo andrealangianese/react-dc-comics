@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
+.full-screen {
   width: 100%;
+  margin: 0 auto;
 }
 
 .container {
@@ -42,8 +43,9 @@ a {
   font-size: 10px;
 }
 
-.img-jumbo {
+.img-jumbo img{
   max-width: 100%;
+  height: auto;
 }
 
 /* sezione card */
@@ -52,15 +54,16 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  background-color: black;
 }
 
 .card-img {
   flex-basis: calc((100% - 25px) / 6);
+  color: antiquewhite;
 }
 
 .card-img img {
   max-width: 100%;
-
 }
 
 /* main content */

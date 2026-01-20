@@ -16,7 +16,7 @@ const navBarData =[
 function MainHeader() {
     return (
         <>
-            <div className="header-flex">
+            <div className="header-flex container">
                 <img src={dcLogo} alt="DC Logo" />
                 <ul>
                     {navBarData.map((data, index) =>(
@@ -28,8 +28,8 @@ function MainHeader() {
                 </ul>
 
             </div>
-            <div >
-                <img className="img-jumbo" src={jumbo} alt="jumbo-img" />
+            <div className="img-jumbo">
+                <img src={jumbo} alt="" />
             </div>
         </>
     )
